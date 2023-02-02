@@ -42,9 +42,11 @@ class CollisionManager
                 {
                 case "island":
                     print("colliding with ISLAND")
+                    scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
                     break
                 case "cloud":
                     print("colliding with CLOUD")
+                    scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
                     break
                 default:
                     break

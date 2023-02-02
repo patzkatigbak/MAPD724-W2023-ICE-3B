@@ -57,7 +57,7 @@ class GameScene: SKScene
         //preload / prewarm  impulse sounds
         do
         {
-            let sounds: [String] = ["thunder", "yey"]
+            let sounds: [String] = ["thunder", "yay"]
             
             for sound in sounds
             {
