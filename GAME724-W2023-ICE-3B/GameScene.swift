@@ -1,5 +1,6 @@
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 let screenSize = UIScreen.main.bounds
 var screenWidth: CGFloat?
@@ -51,6 +52,24 @@ class GameScene: SKScene
             let cloud = Cloud()
             clouds.append(cloud)
             addChild(cloud)
+        }
+        
+        //preload / prewarm  impulse sounds
+        do
+        {
+            let sounds: [String] = ["thunder", "yey"]
+            
+            for sound in sounds
+            {
+                let path: String = Bundle.main.path(forResource: sound, ofType: "mp3")!
+                let url:URL =  URL(fileURLWithPath: path)
+                let avPlayer: AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
+                avPlayer.prepareToPlay()
+            }
+        }
+        catch
+        {
+            
         }
   
     }
