@@ -99,11 +99,18 @@ class GameScene: SKScene
         player?.Update()
         island?.Update()
         
+        //check collision for island
+        CollisionManager.SquaredRadiusCheck(scene: self, object1: player!, object2: island!)
+        
         //update each cloud in the clouds array
      //   clouds?.Update()
         for cloud in  clouds
         {
             cloud.Update()
+            
+            //check collision for cloud
+            
+            CollisionManager.SquaredRadiusCheck(scene: self, object1: player!, object2: cloud)
         }
     }
 }
