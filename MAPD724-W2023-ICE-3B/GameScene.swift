@@ -54,6 +54,14 @@ class GameScene: SKScene
             addChild(cloud)
         }
         
+        
+        //engine to play background music
+        let engineSound = SKAudioNode(fileNamed: "engine.mp3")
+        addChild(engineSound)
+        engineSound.autoplayLooped = true
+        engineSound.run(SKAction.changeVolume(by: 0.5, duration: 0))
+        
+        
         //preload / prewarm  impulse sounds
         do
         {

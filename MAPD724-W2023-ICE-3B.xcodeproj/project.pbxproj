@@ -41,10 +41,11 @@
 		C888BAED298B304C00F38D28 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888BAD4298B304C00F38D28 /* Ocean.swift */; };
 		C888BAEE298B304C00F38D28 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888BAD5298B304C00F38D28 /* Player.swift */; };
 		C888BAF1298B323800F38D28 /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888BAF0298B323800F38D28 /* CollisionManager.swift */; };
+		C888BAF3298B416800F38D28 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888BAF2298B416800F38D28 /* ScoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C888BA9D298B300900F38D28 /* GAME724-W2023-ICE-3B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAME724-W2023-ICE-3B.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888BA9D298B300900F38D28 /* MAPD724-W2023-ICE-3B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE-3B.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C888BAA0298B300900F38D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C888BAA2298B300900F38D28 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C888BAA4298B300900F38D28 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		C888BAD4298B304C00F38D28 /* Ocean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		C888BAD5298B304C00F38D28 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C888BAF0298B323800F38D28 /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
+		C888BAF2298B416800F38D28 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 		C888BA94298B300900F38D28 = {
 			isa = PBXGroup;
 			children = (
-				C888BA9F298B300900F38D28 /* GAME724-W2023-ICE-3B */,
+				C888BA9F298B300900F38D28 /* MAPD724-W2023-ICE-3B */,
 				C888BA9E298B300900F38D28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,12 +105,12 @@
 		C888BA9E298B300900F38D28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C888BA9D298B300900F38D28 /* GAME724-W2023-ICE-3B.app */,
+				C888BA9D298B300900F38D28 /* MAPD724-W2023-ICE-3B.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C888BA9F298B300900F38D28 /* GAME724-W2023-ICE-3B */ = {
+		C888BA9F298B300900F38D28 /* MAPD724-W2023-ICE-3B */ = {
 			isa = PBXGroup;
 			children = (
 				C888BAEF298B322400F38D28 /* Managers */,
@@ -124,7 +126,7 @@
 				C888BAAD298B300B00F38D28 /* Assets.xcassets */,
 				C888BAAF298B300B00F38D28 /* LaunchScreen.storyboard */,
 			);
-			path = "GAME724-W2023-ICE-3B";
+			path = "MAPD724-W2023-ICE-3B";
 			sourceTree = "<group>";
 		};
 		C888BAB7298B304B00F38D28 /* Assets */ = {
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				C888BAF0298B323800F38D28 /* CollisionManager.swift */,
+				C888BAF2298B416800F38D28 /* ScoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -208,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C888BA9C298B300900F38D28 /* GAME724-W2023-ICE-3B */ = {
+		C888BA9C298B300900F38D28 /* MAPD724-W2023-ICE-3B */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C888BAB4298B300B00F38D28 /* Build configuration list for PBXNativeTarget "GAME724-W2023-ICE-3B" */;
+			buildConfigurationList = C888BAB4298B300B00F38D28 /* Build configuration list for PBXNativeTarget "MAPD724-W2023-ICE-3B" */;
 			buildPhases = (
 				C888BA99298B300900F38D28 /* Sources */,
 				C888BA9A298B300900F38D28 /* Frameworks */,
@@ -220,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = "GAME724-W2023-ICE-3B";
+			name = "MAPD724-W2023-ICE-3B";
 			productName = "GAME724-W2023-ICE-3B";
-			productReference = C888BA9D298B300900F38D28 /* GAME724-W2023-ICE-3B.app */;
+			productReference = C888BA9D298B300900F38D28 /* MAPD724-W2023-ICE-3B.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C888BA98298B300900F38D28 /* Build configuration list for PBXProject "GAME724-W2023-ICE-3B" */;
+			buildConfigurationList = C888BA98298B300900F38D28 /* Build configuration list for PBXProject "MAPD724-W2023-ICE-3B" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,7 +256,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C888BA9C298B300900F38D28 /* GAME724-W2023-ICE-3B */,
+				C888BA9C298B300900F38D28 /* MAPD724-W2023-ICE-3B */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C888BAF3298B416800F38D28 /* ScoreManager.swift in Sources */,
 				C888BAA7298B300900F38D28 /* GameScene.swift in Sources */,
 				C888BAE8298B304C00F38D28 /* GameProtocol.swift in Sources */,
 				C888BAA9298B300900F38D28 /* GameViewController.swift in Sources */,
@@ -505,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C888BA98298B300900F38D28 /* Build configuration list for PBXProject "GAME724-W2023-ICE-3B" */ = {
+		C888BA98298B300900F38D28 /* Build configuration list for PBXProject "MAPD724-W2023-ICE-3B" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C888BAB2298B300B00F38D28 /* Debug */,
@@ -514,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C888BAB4298B300B00F38D28 /* Build configuration list for PBXNativeTarget "GAME724-W2023-ICE-3B" */ = {
+		C888BAB4298B300B00F38D28 /* Build configuration list for PBXNativeTarget "MAPD724-W2023-ICE-3B" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C888BAB5298B300B00F38D28 /* Debug */,
